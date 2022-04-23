@@ -1,0 +1,127 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  justify-content:space-between;
+}
+
+
+img {
+  display: flex;
+  width: 600px;}
+
+.logo-head {
+  width: 100px;
+}
+
+.contentimg {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  padding-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding: 35px;
+  background-color: white;
+}
+
+.block {
+  background-color: lightgray;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.action {
+  background-color: white;
+  padding: 34px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+}
+
+.text-header{
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: white;
+  color: rgb(63, 99, 122);
+
+}
+
+
+.header,
+.footer {
+  background-color: #2f3e53;
+  display: flex;
+  padding: 16px;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  color: #F9FAf8;
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.hero-text {
+  flex-basis: 400px;
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.hero-image img {
+  width: 500px;}
+
+.button {
+  display: block;
+  text-align: center;
+  width: 110px;
+  background:rgb(63, 99, 122);
+  color: white;
+  padding: 5px;
+  border-radius: 10%;
+  text-decoration: none;
+}
+
+.footer {
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: cadetblue;
+}
